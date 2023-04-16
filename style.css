@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* ------cabecera--------- */
+body {
+  background-color: rgb(23, 23, 22);
+  text-align: center;
+  font-family: sans-serif;
+}
+.conte1 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo1 {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 50%;
+  display: flex;
+}
+.menu {
+  padding-top: 40px;
+  padding-left: 400px;
+  display: flex;
+}
+.menu a {
+  text-decoration: none;
+  margin-left: 11px;
+  color: white;
+  font-size: 20px;
+}
+.menu a:hover {
+  color: #f72585;
+}
+.redes {
+  padding-top: 40px;
+  padding-right: 70px;
+  font-size: 20px;
+}
+.redes :hover {
+  color: #f72585;
+}
+
+.image .nube {
+  width: 100%;
+}
+/* ----------imgenes-------- */
+.container{
+ width: 100%;
+ max-width: 1200px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: auto;
+}
+.container .card{
+  width: 330px;
+ height: 430px;
+ border-radius: 8px;
+ box-shadow: 0 2px 2px r;
+ overflow: hidden;
+ margin: 20px;
+ text-align: center;
+ transition: all 0.25s;
+}
+.container .card:hover{
+  transform: translateY(-15px);
+
+}
+.container .card img{
+ background-size: cover;
+
+}
+.container .card h1{
+  
+}
+
+
+.card{
+  cursor: pointer; 
+  
+}
+.f1 > h3,
+.f2 > h3,
+.f3 > h3 {
+  font-size: 20px;
+  color: #f72585;
+}
+
+/* -------texto------- */
+
+
+.texto p {
+  color: azure;
+  font-size: 20px;
+  width: 30%;
+  margin:auto;
+}
+.texto h1 {
+  font-size: 20px;
+  color: azure;
+}
+/* -------fomulario------- */
+h1{ color:white
+}
+.contacto{
+   background-image:url(image/pre.jpg) ;
+   margin: 50px auto;
+   width: 500px;
+   padding: 30px;
+   border-radius: 10px;
+}
+.contacto h1{
+    font-size: 25px;
+    color: white;
+    
+}
+.elemnto .control{
+    margin-bottom: 10px;
+   
+}
+.btn{
+ width: 100px;
+ height: 40px;
+ border-radius: 7px;
+ margin-bottom: 30px;
+ margin-top: 30px ;
+}
+.s3{
+color: white;
+}
+.boton :hover{
+    background-color: #ff0054 ;
+}
+.control{
+ width: 300px;
+ height: 40px; 
+ border-radius: 7px;
+ 
+}
+.comentario{
+    color: white;
+    border-radius: 10px;
+}
+/* -------whas------- */
+.whas {
+  font-size: 100px;
+  color: rgb(37 211 102);
+  justify-content: end;
+  display: flex;
+}
+
